@@ -1,0 +1,414 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* css chung */
+body {
+    font-family: 'Outfit';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    background-image: url('../img/BG.png');
+    background-position: top center;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    height: 950px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    /* Max width là 1170px nhưng cho thêm padding 15px nên + thêm 30px*/
+}
+
+.btn {
+    background-color: #4F77FF;
+    padding: 13px 28px;
+    border-radius: 10px;
+    max-width: 158px;
+    text-align: center;
+}
+
+/* css header */
+.header {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.header__menu a {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #7B88A8;
+}
+
+.header-icon {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-icon__btn a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* hover header*/
+.header__logo:hover {
+    opacity: 0.6;
+}
+
+.menu-item a:hover {
+    color: #000;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* css hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 770px;
+    position: relative;
+    top: 226px;
+}
+
+.hero .hero-xl .hero-xl__content {
+    display: inline;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -2px;
+    ;
+}
+
+.hero .hero-xl .hero-xl__desc {
+    margin-top: 40px;
+}
+
+.hero-btn {
+    display: flex;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+.hero-btn .btn a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+
+.hero-btn .btn {
+    line-height: 30px;
+}
+
+.hero-btn img {
+    width: 52px;
+    height: 52px;
+}
+
+.hero-btn__play {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.scrolls {
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    top: -60px;
+    bottom: 90px;
+}
+
+.scroll {
+    z-index: 9999999;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* css services */
+.services {
+    max-width: 100%;
+    display: flex;
+
+}
+
+.services-sever {
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards {
+    padding: 50px 35px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cards-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.cards-content {
+    margin-top: 20px;
+}
+
+.cards-content h3 {
+    margin-bottom: 40px;
+}
+
+.services-btn {
+    margin: 0 auto;
+    margin-top: 70px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+}
+
+.services-btn a {
+    color: #FFFFFF;
+}
+
+.cards:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.scroll__icon:hover {
+    opacity: 0.8;
+}
+
+.services-tille {
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.services-tille h1 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+}
+
+.services-tille span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+}
+
+.logos {
+    max-width: 1920px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.logo {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.logo__text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.logos-logo {
+    display: flex;
+    margin-top: 80px;
+    gap: 105px;
+}
+
+.logos-logo__items:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.abouts {
+    background-color: #F7F5F1;
+    margin-top: 120px;
+}
+
+.about-title__text {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+}
+
+.about-title__span {
+    margin-bottom: 120px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+}
+
+.section {
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.section-content {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.section-content__tille {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #2D3958;
+}
+
+.section-content__texts {
+    margin-bottom: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #788190;
+}
+
+.section-content__icon {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    color: #2D3958;
+}
+
+.section-content__text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B88A8;
+}
+
+.section-content__icon:hover {
+    cursor: pointer;
+}
+
+.Portfolios {
+    max-width: 1920px;
+}
+
+.Portfolios .Portfolio {
+    margin: 0 auto;
+}
+
+.Portfolio__text {
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    max-width: 970px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2D3958;
+}
+
+.Portfolio-content {
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.Portfolio-content__img :hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.Portfolio-logo__items :hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.section-img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
