@@ -85,6 +85,10 @@ li {
     text-transform: uppercase;
 }
 
+.header-icon__btn {
+    transition: linear 0.15s;
+}
+
 /* hover header*/
 .header__logo:hover {
     opacity: 0.6;
@@ -94,8 +98,17 @@ li {
     color: #000;
 }
 
+img:hover {
+    cursor: pointer;
+    transform: scale(1.28);
+    transition: linear 0.15s;
+}
+
 .btn:hover {
     opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.28);
+    transition: linear 0.15s;
 }
 
 /* css hero */
@@ -126,6 +139,7 @@ li {
     display: flex;
     margin-top: 70px;
     gap: 10px;
+
 }
 
 .hero-btn .btn a {
@@ -140,6 +154,7 @@ li {
 
 .hero-btn .btn {
     line-height: 30px;
+    transition: linear 0.15s;
 }
 
 .hero-btn img {
@@ -411,4 +426,127 @@ li {
 .section-img:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+.cta {
+    max-width: 1920px;
+    display: flex;
+    background-image: url('../img/Group\ bgf.png');
+    height: 500px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.cta .cta__content {
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.cta .cta__content h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+    margin-top: 106px;
+    margin-bottom: 30px;
+}
+
+.cta .cta__content span {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #7B88A8;
+}
+
+.cta__content .btn {
+    margin-top: 65px;
+    transition: linear 0.15s;
+}
+
+.footer {
+    background-color: #292F3A;
+    height: 546px;
+
+}
+
+.content {
+    margin-top: 100px;
+    color: #E7E5EA;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.content .if {
+    margin-bottom: 20px;
+}
+
+.content li {
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #E7E5EA;
+}
+
+.content a,
+.copyrigth__content {
+    color: #E7E5EA;
+}
+
+.copyrigth {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__new {
+    max-width: 370px;
+}
+
+.content__new .input {
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+input.search {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content__new .desc {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+}
+
+.copyrigth__icon {
+    display: flex;
+    gap: 20px;
+}
+
+.line {
+    position: relative;
+    top: 80px;
+    border: 0.1px solid #000000;
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
